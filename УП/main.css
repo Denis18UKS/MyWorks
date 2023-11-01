@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+
+body{
+    height: 9920px;
+    margin: 0 auto;
+}
+
+nav{
+    height: 89px;
+}
+
+#nav-list{
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navigations{
+    display: flex;
+    align-items: center;
+}
+
+#navigations ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+#navigations ul a{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    transition: all 0.6s ease-in-out;
+}
+
+#navigations ul a:hover{
+    font-size: 20px;
+    transition: all 0.6s ease-in-out;
+}
+
+#navigations h1{
+    color: #000;
+    font-family: "Ultra";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+}
+
+#nav-list button{
+    width: 138px;
+    height: 48px;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+#nav-list button:hover{
+    font-size: 20px;
+    background:none;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.6s ease-in-out;
+}
+
+header{
+    display: flex;
+    height: 791px;
+    background: rgba(231, 212, 190, 0.44);
+    justify-content: space-between;
+}
+
+#header-text-background{
+    display: flex;
+    height: 500px;
+}
+
+#header-text{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SIENCE{
+    color: #000;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.Fresh{
+    margin-top: 21px;
+    width: 467px;
+    color: #000;
+    font-family: Ultra;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+
+.Eve{
+    width: 470px;
+    height: 70px;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#since_and_img{
+    position: relative;
+}
+
+#coloss-img{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+}
